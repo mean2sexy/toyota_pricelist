@@ -24,7 +24,7 @@
                     <!-- <img src="images/toyota-lampang-logo.png" alt="" height="24" > -->
                     โตโยต้าลำปาง
                 </a>
-                <button class="btn btn-success me-2" type="button">กรอกใบจอง</button>
+                <button class="btn btn-success me-2" type="button" onclick="document.location='./form.html'">กรอกใบจอง</button>
             </div>
         </nav>
         <div class="container">
@@ -43,7 +43,13 @@
                             <div id="lastnameHelp" class="form-text">กรุณากรอกนามสกุลจริง</div>
                         </div>
                     </div>
-                    
+                    <label for="form-select" class="form_label">มีความประสงค์จะซื้อรถยนต์:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>เลือกประเภทของรถยนต์</option>
+                        <option value="1">รถยนต์ส่วนบุคคล</option>
+                        <option value="2">รถยนต์เพื่อการพาณิชย์</option>
+                        <option value="3">รถยนต์เอนกประสงค์</option>
+                      </select>
                     
                 </div>
                 <button type="submit" class="btn btn-primary">ยืนยันการจอง</button>
