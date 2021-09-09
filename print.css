@@ -1,0 +1,24 @@
+@media print {
+
+    h1 {
+        display:none;
+    }
+
+    p {
+        display:none;
+    }
+
+    body {
+        font-size: 8px;
+        color: black;
+    }
+
+    table {
+        font-size: 5px;
+    }
+
+    td {
+        height: 5px;
+    }
+
+}
